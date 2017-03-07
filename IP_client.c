@@ -158,7 +158,7 @@ int main(int argc, char *argv[])
 		    	close(sockfd);
 		    	exit(0);
 		}
-	usleep(200);
+	//usleep(200);
 	}
 
 	/*Cleanup after signal handling */
