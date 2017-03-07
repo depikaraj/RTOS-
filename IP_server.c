@@ -187,7 +187,7 @@ int main(int argc,char* argv[])
  	{ 
 	  
 		close(sockfd); 
-		if ((numbytes = recv(new_fd, buf, BUFSIZE-1, 0)) == -1)
+		if ((numbytes = recv(new_fd, buf, BUFSIZE, 0)) == -1)
 		{
 			perror("recv");
 			exit(1);
