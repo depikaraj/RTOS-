@@ -16,4 +16,3 @@ How to compile your source files with PulseAudio Library
 
 cc  -lpulse -lpulse-simple server.c  -o server
 cc  -lpulse -lpulse-simple client.c  -o client
-# IP_Phone
