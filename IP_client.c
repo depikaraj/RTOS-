@@ -24,7 +24,7 @@
 #include <pulse/simple.h>
 #include <pulse/error.h>
 #include <pulse/gccmacro.h>
-#define BUFSIZE 102400
+#define BUFSIZE 1024
 
 volatile sig_atomic_t keep_going = 1;
 
