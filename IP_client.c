@@ -1,5 +1,6 @@
 /*
 Periodic Scheduling at client side 
+Bandwidth = Datarate / Sampling rate
 */
 
 #include <stdio.h>
