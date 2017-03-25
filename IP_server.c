@@ -1,4 +1,6 @@
-/* IP phone server side */
+/* IP phone server side 
+Bandwidth = Data Rate/Sampling rate
+*/
 
 #include <stdio.h>
 #include <stdlib.h>
